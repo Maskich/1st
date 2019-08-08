@@ -1,0 +1,106 @@
+
+@font-face {
+    font-family: "Gotham Rounded";
+    src: url('../fonts/GothamRounded-Bold.otf');
+}
+@font-face {
+    font-family: "Gotham Rounded - Book";
+    src: url('../fonts/GothamRounded-Book.otf');
+}
+@font-face {
+
+}
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+.container{
+    max-width:1070px;
+    width:100%;
+    margin: 0 auto;
+}
+
+.header{
+    width:100%;
+    height:100vh;
+    background:url("../img/header_bg.png")center center/cover no-repeat;
+}
+.header_wrapper{
+    width:100%;
+    height:100vh;
+}
+
+.menu{
+    max-width:758px;
+    width:100%;
+    margin: 0 auto;
+    display:flex;
+    justify-content:space-between;
+    position: relative;
+}
+
+.menu_link{
+    padding-top:73px;
+    text-decoration:none;
+    color:#ffffff;
+    font-family:"Gotham Rounded";
+    font-size:16px;
+    text-transform:uppercase;
+}
+
+.menu_logo{
+    padding-top:40px;
+}
+
+.header_inner{
+    text-align: center;
+    padding-top: 250px;
+}
+.header_title{
+    text-align:center;
+    color:#ffffff;
+    font-family:"Gotham Rounded";
+    font-size:36px;
+    text-transform:uppercase;
+    letter-spacing:5.4px;
+}
+
+.header_subtitle{
+    margin-top: 13px;
+    color: #ffffff;
+    font-family: "Gotham Rounded";
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 2.4px;
+}
+
+.header_btn{
+    margin-top: 26px;
+    color: #ffffff;
+    font-family: "Gotham Rounded";
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    width: 166px;
+    height: 49px;
+    border-radius: 3px;
+    background-color: #16a085;
+    cursor: pointer;
+    border: none;
+}
+
+.header_media{
+    margin: 300px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    height: 21px;
+}
+
+.icons_link{
+
+}
